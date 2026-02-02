@@ -1,0 +1,90 @@
+import wikipediaapi
+from pathlib import Pathfff
+
+RAW_DIR = Path("data/raw_text")
+RAW_DIR.mkdir(parents=True, exist_ok=True)
+
+wiki = wikipediaapi.Wikipedia(
+    language="en",
+    user_agent="cipher-language-project"
+)
+
+def scrape_wikipedia(title):
+    page = wiki.page(title)
+
+    if not page.exists():
+        print(f"Page not found: {title}")
+        return
+
+    filename = title.replace(" ", "_") + ".txt"
+    out_file = RAW_DIR / filename
+    out_file.write_text(page.text, encoding="utf-8")
+
+    print(f"Saved wiki page → {filename}")
+
+scrape_wikipedia("Cryptography")
+scrape_wikipedia("Linguistics")
+scrape_wikipedia("Machine Learning")
+scrape_wikipedia("Vigenere Cipher")
+scrape_wikipedia("Cipher")
+scrape_wikipedia("Plain text")
+scrape_wikipedia("Code")
+scrape_wikipedia("Language")
+scrape_wikipedia("Generative AI")
+scrape_wikipedia("SASTRA University")
+scrape_wikipedia("Wikipedia")
+scrape_wikipedia("Web scraping")
+scrape_wikipedia("Data")
+scrape_wikipedia("Algorithm")
+scrape_wikipedia("Y2K")
+scrape_wikipedia("Y2038")
+scrape_wikipedia("Robotics")
+scrape_wikipedia("News")
+scrape_wikipedia("Database")
+scrape_wikipedia("Computer")
+scrape_wikipedia("Computer Bugs")
+scrape_wikipedia("Ethics of Artificial Intelligence")
+scrape_wikipedia("Claude Shannon")
+scrape_wikipedia("Alan Turing")
+scrape_wikipedia("Cryptanalysis")
+scrape_wikipedia("Corpus linguistics")
+scrape_wikipedia("Language model")
+scrape_wikipedia("large Language Model")
+scrape_wikipedia("Semantics")
+scrape_wikipedia("Public-key cryptography")
+scrape_wikipedia("AES encryption")
+scrape_wikipedia("Semiotics")
+scrape_wikipedia("Logic")
+scrape_wikipedia("Philosophy of language")
+scrape_wikipedia("World War I")
+scrape_wikipedia("World War II")
+scrape_wikipedia("Roman Empire")
+scrape_wikipedia("Industrial Revolution")
+scrape_wikipedia("Indus Valley Civilization")
+scrape_wikipedia("Byzantium")
+scrape_wikipedia("Ancient China")
+scrape_wikipedia("Michael Jackson")
+scrape_wikipedia("Abraham Lincoln")
+scrape_wikipedia("John F. Kennedy")
+scrape_wikipedia("Issac Asimov")
+scrape_wikipedia("Mahatma Gandhi")
+scrape_wikipedia("CERN")
+scrape_wikipedia("M. C. Escher")
+scrape_wikipedia("Titanic")
+scrape_wikipedia("India")
+scrape_wikipedia("Mumbai")
+scrape_wikipedia("London")
+scrape_wikipedia("New York")
+scrape_wikipedia("Canberra")
+scrape_wikipedia("Hibiscus")
+scrape_wikipedia("Lotus")
+scrape_wikipedia("French New Wave")
+scrape_wikipedia("English")
+scrape_wikipedia("German")
+scrape_wikipedia("Tamil")
+scrape_wikipedia("French")
+scrape_wikipedia("Cinema")
+scrape_wikipedia("Hollywood")
+scrape_wikipedia("Asia")
+scrape_wikipedia("Europe")
+scrape_wikipedia("Australia")
