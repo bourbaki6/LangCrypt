@@ -1,0 +1,89 @@
+Corpus linguistics is an empirical method for the study of language by
+text corpus (plural corpora). Corpora are balanced, often stratified collections of authentic, "real world", text of speech or writing that aim to represent a given linguistic variety. Today, corpora are generally machine-readable data collections. 
+Corpus linguistics proposes that a reliable analysis of a language is more feasible with corpora collected in the field—the natural context ("realia") of that language—with minimal experimental interference. Large collections of text, though corpora may also be small in terms of running words, allow linguists to run quantitative analyses on linguistic concepts that may be difficult to test in a qualitative manner.
+The text-corpus method uses the body of texts in any natural language to derive the set of abstract rules which govern that language. Those results can be used to explore the relationships between that subject language and other languages which have undergone a similar analysis. The first such corpora were manually derived from source texts, but now that work is automated.
+Corpora have not only been used for linguistics research, they have been increasingly used to compile dictionaries (starting with The American Heritage Dictionary of the English Language in 1969) and reference grammars, with A Comprehensive Grammar of the English Language, published in 1985, as a first.
+Experts in the field have differing views about the annotation of a corpus. These views range from John McHardy Sinclair, who advocates minimal annotation so texts speak for themselves, to the Survey of English Usage team (University College, London), who advocate annotation as allowing greater linguistic understanding through rigorous recording.
+
+History
+Some of the earliest efforts at grammatical description were based at least in part on corpora of particular religious or cultural significance.  For example, Prātiśākhya literature described the sound patterns of Sanskrit as found in the Vedas, and 
+Pāṇini's grammar of classical Sanskrit was based at least in part on analysis of that same corpus.  Similarly, the early Arabic grammarians paid particular attention to the language of the Quran.  In the Western European tradition, scholars prepared concordances to allow detailed study of the language of the Bible and other canonical texts.
+
+English corpora
+A landmark in modern corpus linguistics was the publication of Computational Analysis of Present-Day American English in 1967. Written by Henry Kučera and W. Nelson Francis, the work was based on an analysis of the Brown Corpus, which is a structured and balanced corpus of one million words of American English from the year 1961. The corpus comprises 2000 text samples, from a variety of genres. The Brown Corpus was the first computerized corpus designed for linguistic research. Kučera and Francis subjected the Brown Corpus to a variety of computational analyses and then combined elements of linguistics, language teaching, psychology, statistics, and sociology to create a rich and variegated opus. A further key publication was Randolph Quirk's "Towards a description of English Usage" in 1960 in which he introduced the Survey of English Usage. Quirk's corpus was the first modern corpus to be built with the purpose of representing the whole language.
+Shortly thereafter, Boston publisher Houghton-Mifflin approached Kučera to supply a million-word, three-line citation base for its new American Heritage Dictionary, the first dictionary compiled using corpus linguistics. The AHD took the innovative step of combining prescriptive elements (how language should be used) with descriptive information (how it actually is used).
+Other publishers followed suit. The British publisher Collins' COBUILD monolingual learner's dictionary, designed for users learning English as a foreign language, was compiled using the Bank of English. The Survey of English Usage Corpus was used in the development of one of the most important Corpus-based Grammars, which was written by Quirk et al. and published in 1985 as A Comprehensive Grammar of the English Language.
+The Brown Corpus has also spawned a number of similarly structured corpora: the LOB Corpus (1960s British English), Kolhapur (Indian English), Wellington (New Zealand English), Australian Corpus of English (Australian English), the Frown Corpus (early 1990s American English), and the FLOB Corpus (1990s British English). Other corpora represent many languages, varieties and modes, and include the International Corpus of English, and the British National Corpus, a 100 million word collection of a range of spoken and written texts, created in the 1990s by a consortium of publishers, universities (Oxford and Lancaster) and the British Library. For contemporary American English, work has stalled on the American National Corpus, but the 400+ million word Corpus of Contemporary American English (1990–present) is now available through a web interface.
+The first computerized corpus of transcribed spoken language was constructed in 1971 by the Montreal French Project, containing one million words, which inspired Shana Poplack's much larger corpus of spoken French in the Ottawa-Hull area.
+
+Multilingual corpora
+In the 1990s, many of the notable early successes on statistical methods in natural-language programming (NLP) occurred in the field of machine translation, due especially to work at IBM Research.  These systems were able to take advantage of existing multilingual textual corpora that had been produced by the Parliament of Canada and the European Union as a result of laws calling for the translation of all governmental proceedings into all official languages of the corresponding systems of government.
+There are corpora in non-European languages as well. For example, the National Institute for Japanese Language and Linguistics in Japan has built a number of corpora of spoken and written Japanese. Sign language corpora have also been created using video data.
+
+Ancient languages corpora
+Besides these corpora of living languages, computerized corpora have also been made of collections of texts in ancient languages. An example is the Andersen-Forbes database of the Hebrew Bible, developed since the 1970s, in which every clause is parsed using graphs representing up to seven levels of syntax, and every segment tagged with seven fields of information. The Quranic Arabic Corpus is an annotated corpus for the Classical Arabic language of the Quran. This is a recent project with multiple layers of annotation including morphological segmentation, part-of-speech tagging, and syntactic analysis using dependency grammar. The Digital Corpus of Sanskrit (DCS) is a "Sandhi-split corpus of Sanskrit texts with full morphological and lexical analysis... designed for text-historical research in Sanskrit linguistics and philology."
+
+Corpora from specific fields
+Besides pure linguistic inquiry, researchers had begun to apply corpus linguistics to other academic and professional fields, such as the emerging sub-discipline of Law and Corpus Linguistics, which seeks to understand legal texts using corpus data and tools. The DBLP Discovery Dataset concentrates on computer science, containing relevant computer science publications with sentient metadata such as author affiliations, citations, or study fields. A more focused dataset was introduced by NLP Scholar, a combination of papers of the ACL Anthology and Google Scholar metadata. Corpora can also aid in translation efforts or in teaching foreign languages.
+
+Methods
+Corpus linguistics has generated a number of research methods, which attempt to trace a path from data to theory. Wallis and Nelson (2001) first introduced what they called the 3A perspective:  Annotation, Abstraction and Analysis.
+
+Annotation consists of the application of a scheme to texts. Annotations may include structural markup, part-of-speech tagging, parsing, and numerous other representations.
+Abstraction consists of the translation (mapping) of terms in the scheme to terms in a theoretically motivated model or dataset. Abstraction typically includes linguist-directed search but may include e.g., rule-learning for parsers.
+Analysis consists of statistically probing, manipulating and generalising from the dataset. Analysis might include statistical evaluations, optimisation of rule-bases or knowledge discovery methods.
+Most lexical corpora today are part-of-speech-tagged (POS-tagged). However even corpus linguists who work with 'unannotated plain text' inevitably apply some method to isolate salient terms. In such situations annotation and abstraction are combined in a lexical search.
+The advantage of publishing an annotated corpus is that other users can then perform experiments on the corpus (through corpus managers). Linguists with other interests and differing perspectives than the originators' can exploit this work. By sharing data, corpus linguists are able to treat the corpus as a locus of linguistic debate and further study.
+
+See also
+A Linguistic Atlas of Early Middle English
+Collocation
+Collostructional analysis
+Concordance (Key Word in Context)
+Keyword (linguistics)
+Linguistic Data Consortium
+List of text corpora
+Machine translation
+Natural Language Toolkit
+Pattern grammar
+Search engines: they access the "web corpus"
+Semantic prosody
+Speech corpus
+Text corpus
+Translation memory
+Treebank
+Word list
+
+Notes and references
+Further reading
+Books
+Biber, D., Conrad, S., Reppen R. Corpus Linguistics, Investigating Language Structure and Use, Cambridge: Cambridge UP, 1998. ISBN 0-521-49957-7
+McCarthy, D., and Sampson G. Corpus Linguistics: Readings in a Widening Discipline, Continuum, 2005. ISBN 0-8264-8803-X
+Facchinetti, R. Theoretical Description and Practical Applications of Linguistic Corpora. Verona: QuiEdit, 2007 ISBN 978-88-89480-37-3
+Facchinetti, R. (ed.) Corpus Linguistics 25 Years on. New York/Amsterdam: Rodopi, 2007 ISBN 978-90-420-2195-2
+Facchinetti, R. and Rissanen M. (eds.) Corpus-based Studies of Diachronic English. Bern: Peter Lang, 2006 ISBN 3-03910-851-4
+Lenders, W. Computational lexicography and corpus linguistics until ca. 1970/1980, in: Gouws, R. H., Heid, U., Schweickard, W., Wiegand, H. E. (eds.) Dictionaries – An International Encyclopedia of Lexicography. Supplementary Volume: Recent Developments with Focus on Electronic and Computational Lexicography. Berlin: De Gruyter Mouton, 2013 ISBN 978-3112146651
+Fuß, Eric et al. (Eds.): Grammar and Corpora 2016, Heidelberg: Heidelberg University Publishing, 2018. doi:10.17885/heiup.361.509 (digital open access).
+Stefanowitsch A. 2020. Corpus linguistics: A guide to the methodology. Berlin: Language Science Press. ISBN 978-3-96110-225-9, doi:10.5281/zenodo.3735822  Open Access https://langsci-press.org/catalog/book/148.
+
+Book series
+Book series in this field include:
+
+Language and Computers (Brill)
+Studies in Corpus Linguistics (John Benjamins)
+English Corpus Linguistics (Peter Lang)
+Corpus and Discourse (Bloomsbury)
+
+Journals
+There are several international peer-reviewed journals dedicated to corpus linguistics, for example:
+
+Corpora
+Corpus Linguistics and Linguistic Theory
+ICAME Journal
+International Journal of Corpus Linguistics
+Language Resources and Evaluation Journal, supported by the European Language Resources Association
+Research in Corpus Linguistics, supported by the Spanish Association for Corpus Linguistics (AELINCO)
+
+External links
+
+Penn Parsed Corpora of Historical English
