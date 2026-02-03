@@ -1,5 +1,5 @@
 import wikipediaapi
-from pathlib import Pathfff
+from pathlib import Path
 
 RAW_DIR = Path("data/raw_text")
 RAW_DIR.mkdir(parents=True, exist_ok=True)
