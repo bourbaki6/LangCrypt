@@ -19,7 +19,7 @@ def encrypt(text, key):
 for file in CLEAN_DIR.glob("*.txt"):
     text = file.read_text(encoding="utf-8")
 
-    for i in range(10):  # 10 random substitutions per file
+    for i in range(10):  #---10 random substitutions per file---#
         key = random_key()
         cipher = encrypt(text, key)
 
