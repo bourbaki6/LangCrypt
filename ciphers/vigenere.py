@@ -1,6 +1,5 @@
 from pathlib import Path
 import string
-import random
 
 ALPHABET = string.ascii_lowercase
 
