@@ -4,7 +4,7 @@ import string
 ALPHABET = string.ascii_lowercase
 
 CLEAN_DIR = Path("data/clean_text")
-CIPHER_DIR = Path("data/ciphered_text")
+CIPHER_DIR = Path("data/ciphered_text/caesar")
 
 print("Looking for clean files in:", CLEAN_DIR.resolve())
 
