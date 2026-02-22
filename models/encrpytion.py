@@ -1,8 +1,8 @@
 from pathlib import Path
 from preprocess import normalize
-from ciphers.caesar import encrypt as caesar
+from ciphers.Classic_sub_trans.caesar import encrypt as caesar
 from ciphers.substitution import encrypt as sub_encrypt, random_key
-from ciphers.vigenere import encrypt as vig_encrypt
+from ciphers.Classic_sub_trans.vigenere import encrypt as vig_encrypt
 from ciphers.transposition import encrypt as trans_encrypt
 
 plaintext_dir = Path("data/plaintext")

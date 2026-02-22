@@ -1,7 +1,5 @@
 from pathlib import Path
-import string
 
-ALPHABET = string.ascii_lowercase
 
 CLEAN_DIR = Path("data/clean_text")
 OUT_DIR = Path("data/ciphered_text/vigenere")

@@ -1,7 +1,5 @@
-from pathlib import Path
-import string
 
-ALPHABET = string.ascii_lowercase
+from pathlib import Path
 
 CLEAN_DIR = Path("data/clean_text")
 CIPHER_DIR = Path("data/ciphered_text/caesar")

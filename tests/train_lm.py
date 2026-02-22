@@ -1,5 +1,5 @@
 from pathlib import Path
-from language_model import CharNGramLM
+from models.language_model import CharNGramLM
 
 lm = CharNGramLM(n = 3)
 

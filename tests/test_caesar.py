@@ -1,7 +1,7 @@
 import string
 from pathlib import Path
-from language_model import CharNGramLM
-from ciphers.caesar import encrypt
+from models.language_model import CharNGramLM
+from ciphers.Classic_sub_trans.caesar import encrypt
 
 ALPHABET = string.ascii_lowercase
 
