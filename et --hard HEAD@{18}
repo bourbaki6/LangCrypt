@@ -1,0 +1,42 @@
+[33mb0df367[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: reset: moving to HEAD~5
+[33m6712d70[m HEAD@{1}: reset: moving to HEAD~10
+[33m08ec57f[m HEAD@{2}: commit: substitution ciuphered text
+[33m2145fde[m HEAD@{3}: commit: mechnaical ciptexts
+[33m7e97a60[m HEAD@{4}: commit: railfench ciphered text
+[33mf1e3713[m HEAD@{5}: commit: rot13 ciphered text
+[33mfe8db65[m HEAD@{6}: commit: aes ciphered text
+[33m2138b4c[m HEAD@{7}: commit: ciphered text
+[33m738be2e[m HEAD@{8}: commit: rc4.py
+[33md3e5ddd[m HEAD@{9}: commit: adfgx.py
+[33m5015c46[m HEAD@{10}: commit: trifid
+[33m07b5c86[m HEAD@{11}: commit: enigma: the child in us :)
+[33m6712d70[m HEAD@{12}: commit: des
+[33m957ee50[m HEAD@{13}: commit: updates
+[33mf3e58c0[m HEAD@{14}: commit: debugging
+[33m79b3bd6[m HEAD@{15}: commit: updates
+[33mfaa2d4d[m HEAD@{16}: commit: chacha
+[33mb0df367[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{17}: commit: update
+[33mb5b71f7[m HEAD@{18}: commit: bifid.py
+[33m061b8c6[m HEAD@{19}: commit: hill.py
+[33m9a211a8[m HEAD@{20}: commit: rot13
+[33m6e93918[m HEAD@{21}: commit: affine and autokey
+[33mfc2d89f[m HEAD@{22}: commit: updates
+[33me2eb887[m HEAD@{23}: commit: additions
+[33mb28a55c[m HEAD@{24}: commit: models files updated
+[33m42259cb[m HEAD@{25}: commit (merge): evaluationfiles
+[33m27ca41f[m HEAD@{26}: commit (merge): evaluation files
+[33mb49ad42[m HEAD@{27}: pull: Merge made by the 'ort' strategy.
+[33mba530e9[m HEAD@{28}: commit: Additions
+[33m4535c94[m HEAD@{29}: commit: some updates
+[33m3bf70e5[m HEAD@{30}: commit: vignere ciphered texts
+[33m97d288e[m HEAD@{31}: commit: transposition ciphered tests
+[33meec7543[m HEAD@{32}: commit: substitution ciphered text
+[33mf15a6cb[m HEAD@{33}: commit: caesar ciphered text
+[33m59db58d[m HEAD@{34}: commit: caesar
+[33m769191e[m HEAD@{35}: commit: Sub ciphered text
+[33m41c1a10[m HEAD@{36}: commit: caesar ciphered text
+[33m78391ba[m HEAD@{37}: commit: rawtext cleaned
+[33m68f07b5[m HEAD@{38}: commit: changes in webscrape.py script
+[33ma65256e[m HEAD@{39}: commit: first langcrypt
+[33m73bd5d2[m HEAD@{40}: Branch: renamed refs/heads/main to refs/heads/main
+[33m73bd5d2[m HEAD@{42}: commit (initial): Initial commit
