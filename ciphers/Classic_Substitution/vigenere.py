@@ -7,6 +7,8 @@ OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 WORDS = ["cipher", "language", "secret", "model", "neural"]
 
+ALPHABET = "abcdefghijklmnopqrstuvwxyz"
+
 def vigenere(text, key):
     result = []
     k = 0

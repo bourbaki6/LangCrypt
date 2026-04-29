@@ -11,6 +11,8 @@ print("Found files:", files)
 
 CIPHER_DIR.mkdir(parents=True, exist_ok=True)
 
+ALPHABET = "abcdefghijklmnopqrstuvwxyz"
+
 def encrypt(text, shift):
     result = []
     for c in text:
