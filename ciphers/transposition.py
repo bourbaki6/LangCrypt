@@ -1,9 +1,8 @@
 from pathlib import Path
-import random
 
 CLEAN_DIR = Path("data/clean_text")
 OUT_DIR = Path("data/ciphered_text/transposition")
-OUT_DIR.mkdir(parents=True, exist_ok=True)
+OUT_DIR.mkdir(parents = True, exist_ok = True)
 
 def transpose(text, width):
     rows = [text[i:i+width] for i in range(0, len(text), width)]
