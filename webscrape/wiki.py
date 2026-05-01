@@ -66,8 +66,6 @@ scrape_wikipedia("CERN")
 scrape_wikipedia("M. C. Escher")
 scrape_wikipedia("Martin Gardner")
 
-scrape_wikipedia("")
-
 scrape_wikipedia("Titanic")
 scrape_wikipedia("World War I")
 scrape_wikipedia("World War II")
