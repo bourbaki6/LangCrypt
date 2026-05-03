@@ -12,8 +12,6 @@ sys.path.insert(0, str(Path(__file__).parent))
 from models.freq_model  import FrequencyModel
 from models.ngram_model import NGramModel
 from models.markov_model import MarkovModel
-from evaluations.evaluate import evaluate_model
-
 
 CLEAN_DIR = Path("data/clean_text")
 RESULTS_DIR  = Path("results")
