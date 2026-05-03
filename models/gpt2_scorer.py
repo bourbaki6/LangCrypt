@@ -1,6 +1,6 @@
 #---GPT-2 was trained on 40GB of English text (WebText corpus).  
 #   366MB training corpus, while large enough for statistical models, 
-# produces an LM that is orders of magnitude less fluent than GPT-2---#
+#   produces an LM that is orders of magnitude less fluent than GPT-2---#
 
 
 import math
