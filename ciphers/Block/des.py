@@ -119,4 +119,4 @@ for file in CLEAN_DIR.glob("*.txt"):
         cipher = encrypt(text, key)
         out_name = f"{file.stem}_des_{key}.txt"
         (OUT_DIR / out_name).write_text(cipher, encoding="utf-8")
-        print("Saved:", out_name)
+        print("Saved:", out_name) 
