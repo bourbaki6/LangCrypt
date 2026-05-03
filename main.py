@@ -1,6 +1,6 @@
 
 
-from models.n_gram import NGramModel
+from models.ngram_model import NGramModel
 from evaluations.rank_ciphers import rank_ciphers
 
 model = NGramModel(n = 3)
