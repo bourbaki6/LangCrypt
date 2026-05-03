@@ -69,7 +69,7 @@ class SinusoidalPositionalEncoding(nn.Module):
         super().__init__()
         self.dropout = nn.Dropout(p = dropout)
 
-        # Compute positional encodings once at construction time
+       
         pe  = torch.zeros(max_len, d_model)
         pos = torch.arange(0, max_len, dtype = torch.float).unsqueeze(1)
      
@@ -98,7 +98,7 @@ class _TransformerCore(nn.Module):
         super().__init__()
 
         self.d_model = d_model
-        self.embed   = nn.Embedding(vocab_size, d_model, padding_idx = CharVocab.PAD)
+        self.embed = nn.Embedding(vocab_size, d_model, padding_idx = CharVocab.PAD)
         self.pos_enc = SinusoidalPositionalEncoding(d_model, max_seq_len, dropout)
         decoder_layer = nn.TransformerDecoderLayer(
             d_model = d_model,
@@ -312,6 +312,7 @@ class TransformerLanguageModel(BaseLanguageModel):
     def save(self, path: str):
        
         Path(path).parent.mkdir(parents = True, exist_ok = True)
+        
         torch.save({
             "vocab": self.vocab,
             "state": self._model.state_dict(),
@@ -324,7 +325,9 @@ class TransformerLanguageModel(BaseLanguageModel):
                 "seq_len": self.seq_len,
             }
         }, path)
+        
         n_params = sum(p.numel() for p in self._model.parameters())
+        
         print(f"[Transformer] Saved to {path}  ({n_params:,} params)")
 
     def load(self, path: str):
